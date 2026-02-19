@@ -29,6 +29,11 @@ docker compose up -d
 
 docker exec -it ecommerce-db psql -U postgres -d ecommerce 
 ```
+
+To quit:
+```bash
+\q
+```
 ---
 
 ## Schema Overview

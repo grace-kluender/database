@@ -24,11 +24,11 @@ At this stage (Phase 1), this repository provides version-controlled database st
 
 Start the database:
 
+```bash
 docker compose up -d
-docker exec -it ecommerce-db psql -U postgres -d ecommerce 
 
-To exit: 
-\q
+docker exec -it ecommerce-db psql -U postgres -d ecommerce 
+```
 ---
 
 ## Schema Overview

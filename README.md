@@ -17,6 +17,18 @@ At this stage (Phase 1), this repository provides version-controlled database st
   - Defines relationships
   - Inserts sample product data
 
+- `docker-compose.yml` — Starts a PostgreSQL instance and applies the initialization script
+
+---
+## Run / Deploy (Local)
+
+Start the database:
+
+docker compose up -d
+docker exec -it ecommerce-db psql -U postgres -d ecommerce 
+
+To exit: 
+\q
 ---
 
 ## Schema Overview

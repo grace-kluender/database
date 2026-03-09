@@ -2,6 +2,7 @@
 
 This repository contains the PostgreSQL schema and seed data for the microservices-based e-commerce platform.
 
+
 The database supports:
 - Product Service (product catalog)
 - Order Service (order management)
